@@ -1,0 +1,18 @@
+body{
+    background: #fff;
+    color: #000;
+    min-width: 320px;
+}﻿
+img{
+    max-width: 100%;
+    height: auto;
+}
+/*============================header==============================*/
+/*==================menu-top=======================*/
+.menu-top .navbar{
+    color: #fff;
+    height: 110px;
+}
+.navbar-default{
+    background-color: #fff;
+}

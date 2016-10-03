@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,CAAC;EACG,KAAK,EAFF,IAAI",
+"sources": ["../scss/mysass.scss"],
+"names": [],
+"file": "mysass.css"
+}
