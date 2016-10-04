@@ -1,4 +1,91 @@
-$test: #333;
-p{
-    color: $test;
+$body-background: #fff;
+$font-size-default: 16px;
+$color-default: #000;
+$font-size_h3: 24px;
+$font-weight_h3: bold;
+$background-button: #e85f0c;
+$background-button-hover: #e6ad28;
+$color-button: #fff;
+$color-li-a: #e85f0c;
+@font-face{
+    font-family: Panton-Regular;
+    src: url(../fonts/Panton-Regular.ttf);
+}
+@font-face{
+    font-family: Panton-Bold;
+    src: url(../fonts/Panton-Bold.ttf);
+}
+body{
+    background: $body-background;
+    color: $color-default;
+    font-family: Panton-Regular;
+    font-size: $font-size-default;
+    min-width: 320px;
+}
+img{
+    height: auto;
+    max-width: 100%;
+}
+h3{
+    font-size: $font-size_h3;
+    font-weight: $font-weight_h3;
+}
+.btn-red{
+    background: $background-button;
+    color: $color-button;
+    &:hover{
+        background: $background-button-hover;
+    }
+}
+/*==========================header============================*/
+
+.menu-top{
+    .navbar{
+        background: #fff;
+        margin-bottom: 0;
+        padding: 20px 0;
+    }
+    .navbar-default{
+        ul{
+            > li{
+                margin-left: 12px;
+            }
+        }
+        .navbar-nav{
+            ul{
+                > li{
+                    list-style-type: none;
+                    /*margin-left: 30px;*/
+                    &.btn-menu{
+                        margin-top: 14px;
+                    }
+                    &.phone{
+                        font-family: Panton-Bold;
+                        font-size: 22px;
+                    }
+                    span{
+                        padding-left: 5px;
+                    }
+                    a{
+                        /*font-weight: bold;*/
+                        color: $color-li-a;
+                        text-decoration: underline;
+                        &:hover{
+                            color: #e6ad28;
+                        }
+                        &.menu-top-link{
+                            font-size: 14px;
+                        }
+                        &.btn-red{
+                            box-shadow: 0 10px 10px rgba(235,95,12,0.3);
+                            color: #fff;
+                            margin-top: 10px;
+                            padding: 10px 50px;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

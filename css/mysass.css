@@ -1,4 +1,60 @@
-p {
-  color: #333; }
+@font-face {
+  font-family: Panton-Regular;
+  src: url(../fonts/Panton-Regular.ttf); }
+@font-face {
+  font-family: Panton-Bold;
+  src: url(../fonts/Panton-Bold.ttf); }
+body {
+  background: #fff;
+  color: #000;
+  font-family: Panton-Regular;
+  font-size: 16px;
+  min-width: 320px; }
+
+img {
+  height: auto;
+  max-width: 100%; }
+
+h3 {
+  font-size: 24px;
+  font-weight: bold; }
+
+.btn-red {
+  background: #e85f0c;
+  color: #fff; }
+  .btn-red:hover {
+    background: #e6ad28; }
+
+/*==========================header============================*/
+.menu-top .navbar {
+  background: #fff;
+  margin-bottom: 0;
+  padding: 20px 0; }
+.menu-top .navbar-default ul > li {
+  margin-left: 12px; }
+.menu-top .navbar-default .navbar-nav ul > li {
+  list-style-type: none;
+  /*margin-left: 30px;*/ }
+  .menu-top .navbar-default .navbar-nav ul > li.btn-menu {
+    margin-top: 14px; }
+  .menu-top .navbar-default .navbar-nav ul > li.phone {
+    font-family: Panton-Bold;
+    font-size: 22px; }
+  .menu-top .navbar-default .navbar-nav ul > li span {
+    padding-left: 5px; }
+  .menu-top .navbar-default .navbar-nav ul > li a {
+    /*font-weight: bold;*/
+    color: #e85f0c;
+    text-decoration: underline; }
+    .menu-top .navbar-default .navbar-nav ul > li a:hover {
+      color: #e6ad28; }
+    .menu-top .navbar-default .navbar-nav ul > li a.menu-top-link {
+      font-size: 14px; }
+    .menu-top .navbar-default .navbar-nav ul > li a.btn-red {
+      box-shadow: 0 10px 10px rgba(235, 95, 12, 0.3);
+      color: #fff;
+      margin-top: 10px;
+      padding: 10px 50px;
+      text-decoration: none; }
 
 /*# sourceMappingURL=mysass.css.map */
