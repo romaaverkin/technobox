@@ -4,6 +4,9 @@
 @font-face {
   font-family: Panton-Bold;
   src: url(../fonts/Panton-Bold.ttf); }
+@font-face {
+  font-family: Panton-Black;
+  src: url(../fonts/Panton-Black.ttf); }
 body {
   background: #fff;
   color: #000;
@@ -72,5 +75,62 @@ h3 {
   text-decoration: underline; }
 
 /*====================carousel====================*/
+header .menu-carousel .carousel-control .icon-prev {
+  background-image: url("../img/angle.png"); }
+header .menu-carousel .carousel-indicators-wrap .carousel-indicators li {
+  background: #E6AD28;
+  height: 12px;
+  margin: 4px;
+  width: 12px; }
+  header .menu-carousel .carousel-indicators-wrap .carousel-indicators li.active {
+    border-color: #E6AD28;
+    background: #f6f6f6;
+    height: 18px;
+    margin: 1px;
+    width: 18px; }
+    header .menu-carousel .carousel-indicators-wrap .carousel-indicators li.active .indicators-active {
+      border-radius: 50%;
+      height: 10px;
+      width: 10px;
+      background: #E6AD28;
+      margin-top: 3px;
+      margin-left: 3px; }
+header .menu-carousel .item {
+  background: #f6f6f6; }
+  header .menu-carousel .item img {
+    margin: 0 auto; }
+  header .menu-carousel .item .carousel-caption {
+    padding-bottom: 90px; }
+    header .menu-carousel .item .carousel-caption .item-wrap {
+      padding-left: 20px; }
+      header .menu-carousel .item .carousel-caption .item-wrap img {
+        left: 0;
+        position: absolute; }
+      header .menu-carousel .item .carousel-caption .item-wrap h1 {
+        color: #000;
+        font-family: Panton-Black;
+        font-size: 57px;
+        text-align: left;
+        text-shadow: none;
+        text-transform: uppercase;
+        padding-top: 11px; }
+      header .menu-carousel .item .carousel-caption .item-wrap h3 {
+        color: #626262;
+        font-family: Panton-Black;
+        font-size: 16px;
+        margin-top: 10px;
+        text-align: left;
+        text-shadow: none;
+        text-transform: uppercase; }
+      header .menu-carousel .item .carousel-caption .item-wrap a.btn-red {
+        display: block;
+        margin-top: 24px;
+        padding: 12px 37px;
+        font-weight: bold;
+        text-align: left;
+        width: 225px; }
+        header .menu-carousel .item .carousel-caption .item-wrap a.btn-red:hover {
+          color: #fff;
+          text-decoration: none; }
 
 /*# sourceMappingURL=mysass.css.map */
