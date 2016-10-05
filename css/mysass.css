@@ -26,6 +26,7 @@ h3 {
     background: #e6ad28; }
 
 /*==========================header============================*/
+/*==============menu-top================*/
 .menu-top .navbar {
   background: #fff;
   margin-bottom: 0;
@@ -56,5 +57,20 @@ h3 {
       margin-top: 10px;
       padding: 10px 50px;
       text-decoration: none; }
+
+/*==============.main-menu================*/
+.main-menu .navbar {
+  background: #fff;
+  margin-bottom: 0; }
+.main-menu .navbar-default .container .navbar-header .navbar-brand {
+  padding-top: 0;
+  padding-bottom: 0; }
+.main-menu .navbar-default .container .navbar-nav li a {
+  color: #000;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  text-decoration: underline; }
+
+/*====================carousel====================*/
 
 /*# sourceMappingURL=mysass.css.map */

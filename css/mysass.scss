@@ -38,7 +38,7 @@ h3{
     }
 }
 /*==========================header============================*/
-
+/*==============menu-top================*/
 .menu-top{
     .navbar{
         background: #fff;
@@ -89,3 +89,31 @@ h3{
         }
     }
 }
+/*==============.main-menu================*/
+.main-menu{
+    .navbar{
+        background: #fff;
+        margin-bottom: 0;
+    }
+    .navbar-default{
+        .container{
+            .navbar-header{
+                .navbar-brand{
+                    padding-top: 0;
+                    padding-bottom: 0;
+                }
+            }
+            .navbar-nav{
+                li{
+                    a{
+                        color: #000;
+                        padding-top: 23px;
+                        padding-bottom: 23px;
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
+/*====================carousel====================*/
