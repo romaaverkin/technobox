@@ -123,9 +123,20 @@ h3{
 header{
     .menu-carousel{
         .carousel-control{
-            .icon-prev{
-                background-image: url("../img/angle.png");
+          .arrow-wrap {
+            background: #fff;
+            border-radius: 50%;
+            height: 48px;
+            margin-top: 253px;
+            width: 48px;
+            &:hover{
+              background: #E6AD28;
+              box-shadow: 0 10px 10px rgba(235,95,12,0.3);
             }
+            img {
+              margin-top: 17px;
+            }
+          }
         }
         .carousel-indicators-wrap{
             .carousel-indicators{
