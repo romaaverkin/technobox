@@ -8,6 +8,7 @@ $background-button-hover: #e6ad28;
 $color-button: #fff;
 $color-li-a: #e85f0c;
 $color-li-a-hover: #e6ad28;
+$modifying-background-color: #F4F8FB;
 @font-face{
     font-family: Panton-Regular;
     src: url(../fonts/Panton-Regular.ttf);
@@ -223,31 +224,77 @@ header{
 .main-content{
   .container{
     .row{
-      .col-md-8{
-        margin-top: 130px;
-        .list-products{
-          h3{
-            padding-bottom: 13px;
-          }
-          .products-row{
-            .col-sm-6{
-              padding-left: 0;
-              .product{
-                ul{
-                  padding-left: 0;
-                  li{
-                    line-height: 1.7;
-                    list-style-type: none;
-                    a{
-                      color: $color-li-a;
-                      font-size: 17px;
-                      padding: 5px 7px;
-                      text-decoration: underline;
-                      &:hover{
-                        background: $color-li-a;
-                        color: #fff;
-                        text-decoration: none;
+      .col-md-7{
+        .content-products {
+          margin-top: 130px;
+          .list-products {
+            margin-bottom: 30px;
+            h3 {
+              padding-bottom: 13px;
+            }
+            .products-row {
+              .col-sm-6 {
+                padding-left: 0;
+                .product {
+                  ul {
+                    padding-left: 0;
+                    li {
+                      line-height: 1.7;
+                      list-style-type: none;
+                      a {
+                        color: $color-li-a;
+                        font-size: 17px;
+                        //padding: 5px 7px;
+                        text-decoration: underline;
+                        &:hover {
+                          background: $color-li-a;
+                          color: #fff;
+                          text-decoration: none;
+                        }
                       }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          .modifying-block{
+            position: relative;
+            background: #F4F8FB;
+            padding: 20px 15px 10px 25px;
+            img.angle-top{
+              position: absolute;
+              margin-top: -8px;
+              margin-right: -5px;
+              right: 0;
+              top: 0;
+            }
+            img.angle-bottom{
+              position: absolute;
+              margin-bottom: -8px;
+              margin-right: -5px;
+              right: 0;
+              bottom: 0;
+            }
+            h3{
+              font-size: 19px;
+            }
+            p{
+              margin-bottom: 35px;
+              line-height: 1.1;
+            }
+            .modifying-row{
+              .col-sm-3{
+                padding-left: 0;
+                .modifying{
+                  .modifying-img-wrap{
+                    height: 47px;
+                    line-height: 47px;
+                    margin-bottom: 16px;
+                    //text-align: center;
+                    //width: 70px;
+                    img{
+                      vertical-align: middle;
                     }
                   }
                 }
