@@ -7,6 +7,7 @@ $background-button: #e85f0c;
 $background-button-hover: #e6ad28;
 $color-button: #fff;
 $color-li-a: #e85f0c;
+$color-li-a-hover: #e6ad28;
 @font-face{
     font-family: Panton-Regular;
     src: url(../fonts/Panton-Regular.ttf);
@@ -74,7 +75,7 @@ h3{
                         color: $color-li-a;
                         text-decoration: underline;
                         &:hover{
-                            color: #e6ad28;
+                            color: $color-li-a-hover;
                         }
                         &.menu-top-link{
                             font-size: 14px;
@@ -97,6 +98,7 @@ h3{
     .navbar{
         background: #fff;
         margin-bottom: 0;
+        padding-bottom: 16px;
     }
     .navbar-default{
         .container{
@@ -107,11 +109,12 @@ h3{
                 }
             }
             .navbar-nav{
+              margin-top: 20px;
                 li{
                     a{
                         color: #000;
-                        padding-top: 23px;
-                        padding-bottom: 23px;
+                        padding-top: 0;
+                        padding-bottom: 0;
                         text-decoration: underline;
                     }
                 }
@@ -121,6 +124,7 @@ h3{
 }
 /*====================carousel====================*/
 header{
+    margin-bottom: -88px;
     .menu-carousel{
         .carousel-control{
           .arrow-wrap {
@@ -214,4 +218,44 @@ header{
             }
         }
     }
+}
+/*======================main-content=======================*/
+.main-content{
+  .container{
+    .row{
+      .col-md-8{
+        margin-top: 130px;
+        .content{
+          h3{
+            padding-bottom: 13px;
+          }
+          .products-row{
+            .col-sm-6{
+              padding-left: 0;
+              .product{
+                ul{
+                  padding-left: 0;
+                  li{
+                    line-height: 1.7;
+                    list-style-type: none;
+                    a{
+                      color: $color-li-a;
+                      font-size: 17px;
+                      padding: 5px 7px;
+                      text-decoration: underline;
+                      &:hover{
+                        background: $color-li-a;
+                        color: #fff;
+                        text-decoration: none;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
