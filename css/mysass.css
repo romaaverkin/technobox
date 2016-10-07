@@ -30,29 +30,26 @@ h3 {
 
 /*==========================header============================*/
 /*==============menu-top================*/
-.menu-top .navbar {
-  background: #fff;
-  margin-bottom: 0;
-  padding: 20px 0; }
-.menu-top .navbar-default ul > li {
-  margin-left: 12px; }
-.menu-top .navbar-default .navbar-nav ul > li {
-  list-style-type: none; }
-  .menu-top .navbar-default .navbar-nav ul > li.btn-menu {
+.menu-top {
+  padding: 15px 0; }
+  .menu-top .btn-menu {
     margin-top: 14px; }
-  .menu-top .navbar-default .navbar-nav ul > li.phone {
+  .menu-top .logo {
+    display: block;
+    margin-top: 20px; }
+  .menu-top .phone {
     font-family: Panton-Bold;
     font-size: 22px; }
-  .menu-top .navbar-default .navbar-nav ul > li span {
+  .menu-top span {
     padding-left: 5px; }
-  .menu-top .navbar-default .navbar-nav ul > li a {
+  .menu-top a {
     color: #e85f0c;
     text-decoration: underline; }
-    .menu-top .navbar-default .navbar-nav ul > li a:hover {
+    .menu-top a:hover {
       color: #e6ad28; }
-    .menu-top .navbar-default .navbar-nav ul > li a.menu-top-link {
+    .menu-top a.menu-top-link {
       font-size: 14px; }
-    .menu-top .navbar-default .navbar-nav ul > li a.btn-red {
+    .menu-top a.btn-red {
       box-shadow: 0 10px 10px rgba(235, 95, 12, 0.3);
       color: #fff;
       margin-top: 10px;
@@ -76,80 +73,82 @@ h3 {
     text-decoration: underline; }
 
 /*====================carousel====================*/
-header {
-  margin-bottom: -88px; }
-  header .menu-carousel .carousel-control .arrow-wrap {
+.header .menu-carousel .carousel-control {
+  background: transparent; }
+  .header .menu-carousel .carousel-control.left {
+    width: 100px; }
+  .header .menu-carousel .carousel-control .arrow-wrap {
     background: #fff;
     border-radius: 50%;
     height: 48px;
     margin-top: 253px;
     width: 48px; }
-    header .menu-carousel .carousel-control .arrow-wrap:hover {
+    .header .menu-carousel .carousel-control .arrow-wrap:hover {
       background: #E6AD28;
       box-shadow: 0 10px 10px rgba(235, 95, 12, 0.3); }
-    header .menu-carousel .carousel-control .arrow-wrap img {
+    .header .menu-carousel .carousel-control .arrow-wrap img {
       margin-top: 17px; }
-  header .menu-carousel .carousel-indicators-wrap .carousel-indicators li {
-    background: #E6AD28;
-    height: 12px;
-    margin: 4px;
-    width: 12px; }
-    header .menu-carousel .carousel-indicators-wrap .carousel-indicators li.active {
-      border-color: #E6AD28;
-      background: #f6f6f6;
-      height: 18px;
-      margin: 1px;
-      width: 18px; }
-      header .menu-carousel .carousel-indicators-wrap .carousel-indicators li.active .indicators-active {
-        border-radius: 50%;
-        height: 10px;
-        width: 10px;
-        background: #E6AD28;
-        margin-top: 3px;
-        margin-left: 3px; }
-  header .menu-carousel .item {
-    background: #f6f6f6; }
-    header .menu-carousel .item img {
-      margin: 0 auto; }
-    header .menu-carousel .item .carousel-caption {
-      padding-bottom: 90px; }
-      header .menu-carousel .item .carousel-caption .item-wrap {
-        padding-left: 20px; }
-        header .menu-carousel .item .carousel-caption .item-wrap img {
-          left: 0;
-          position: absolute; }
-        header .menu-carousel .item .carousel-caption .item-wrap h1 {
-          color: #000;
-          font-family: Panton-Black;
-          font-size: 57px;
-          text-align: left;
-          text-shadow: none;
-          text-transform: uppercase;
-          padding-top: 11px; }
-        header .menu-carousel .item .carousel-caption .item-wrap h3 {
-          color: #626262;
-          font-family: Panton-Black;
-          font-size: 16px;
-          margin-top: 10px;
-          text-align: left;
-          text-shadow: none;
-          text-transform: uppercase; }
-        header .menu-carousel .item .carousel-caption .item-wrap a.btn-red {
-          display: block;
-          margin-top: 24px;
-          padding: 12px 37px;
-          font-weight: bold;
-          text-align: left;
-          width: 225px; }
-          header .menu-carousel .item .carousel-caption .item-wrap a.btn-red:hover {
-            color: #fff;
-            text-decoration: none; }
+.header .menu-carousel .carousel-indicators-wrap .carousel-indicators li {
+  background: #E6AD28;
+  height: 12px;
+  margin: 4px;
+  width: 12px; }
+  .header .menu-carousel .carousel-indicators-wrap .carousel-indicators li.active {
+    border-color: #E6AD28;
+    background: #f6f6f6;
+    height: 18px;
+    margin: 1px;
+    width: 18px; }
+    .header .menu-carousel .carousel-indicators-wrap .carousel-indicators li.active .indicators-active {
+      border-radius: 50%;
+      height: 10px;
+      width: 10px;
+      background: #E6AD28;
+      margin-top: 3px;
+      margin-left: 3px; }
+.header .menu-carousel .item {
+  background: #f6f6f6; }
+  .header .menu-carousel .item img {
+    margin: 0 auto; }
+  .header .menu-carousel .item .carousel-caption {
+    padding-bottom: 90px; }
+    .header .menu-carousel .item .carousel-caption .item-wrap {
+      padding-left: 20px; }
+      .header .menu-carousel .item .carousel-caption .item-wrap img {
+        left: 0;
+        position: absolute; }
+      .header .menu-carousel .item .carousel-caption .item-wrap h1 {
+        color: #000;
+        font-family: Panton-Black;
+        font-size: 57px;
+        text-align: left;
+        text-shadow: none;
+        text-transform: uppercase;
+        padding-top: 11px; }
+      .header .menu-carousel .item .carousel-caption .item-wrap h3 {
+        color: #626262;
+        font-family: Panton-Black;
+        font-size: 16px;
+        margin-top: 10px;
+        text-align: left;
+        text-shadow: none;
+        text-transform: uppercase; }
+      .header .menu-carousel .item .carousel-caption .item-wrap a.btn-red {
+        display: block;
+        margin-top: 24px;
+        padding: 12px 37px;
+        font-weight: bold;
+        text-align: left;
+        width: 225px; }
+        .header .menu-carousel .item .carousel-caption .item-wrap a.btn-red:hover {
+          color: #fff;
+          text-decoration: none; }
 
 /*======================main-content=======================*/
 .main-content .container .row .col-md-7 {
   padding-right: 20px; }
   .main-content .container .row .col-md-7 .content-products {
-    margin-top: 130px; }
+    margin-top: 48px; }
     .main-content .container .row .col-md-7 .content-products .list-products {
       margin-bottom: 30px; }
       .main-content .container .row .col-md-7 .content-products .list-products h3 {
@@ -199,13 +198,15 @@ header {
           margin-bottom: 16px; }
           .main-content .container .row .col-md-7 .content-products .modifying-block .modifying-row .col-sm-3 .modifying .modifying-img-wrap img {
             vertical-align: middle; }
-.main-content .container .row .col-md-5 {
-  background: #E6F1F3;
+.main-content .container .row .col-md-5 .sidebar {
+  position: absolute;
+  margin-top: -88px;
   box-shadow: 0 -10px 38px rgba(14, 14, 14, 0.3);
   margin-left: 12px;
   padding-left: 0;
   padding-right: 0;
-  width: 368px; }
+  width: 368px;
+  background: #E6F1F3; }
   .main-content .container .row .col-md-5 .sidebar .content-sidebar {
     padding: 32px 14px 47px 15px; }
     .main-content .container .row .col-md-5 .sidebar .content-sidebar h3 {
@@ -216,5 +217,12 @@ header {
       font-size: 15px; }
   .main-content .container .row .col-md-5 .sidebar .img-sidebar {
     height: 100%; }
+
+.main-brands {
+  margin-top: 60px; }
+  .main-brands h3 {
+    font-family: Panton-Bold; }
+  .main-brands .container .row .col-md-3 .sidebar-main-brands h3 {
+    font-size: 19px; }
 
 /*# sourceMappingURL=mysass.css.map */
