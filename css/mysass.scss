@@ -60,7 +60,6 @@ h3{
             ul{
                 > li{
                     list-style-type: none;
-                    /*margin-left: 30px;*/
                     &.btn-menu{
                         margin-top: 14px;
                     }
@@ -72,7 +71,6 @@ h3{
                         padding-left: 5px;
                     }
                     a{
-                        /*font-weight: bold;*/
                         color: $color-li-a;
                         text-decoration: underline;
                         &:hover{
@@ -147,7 +145,6 @@ header{
             .carousel-indicators{
                 li{
                     background: #E6AD28;
-                    //border-color: #E6AD28;
                     height: 12px;
                     margin: 4px;
                     width: 12px;
@@ -175,10 +172,8 @@ header{
                 margin: 0 auto;
             }
             .carousel-caption{
-                //outline:1px solid blue;
                 padding-bottom: 90px;
                 .item-wrap {
-                    //outline: 1px solid green;
                     padding-left: 20px;
                     img{
                         left: 0;
@@ -225,6 +220,7 @@ header{
   .container{
     .row{
       .col-md-7{
+        padding-right: 20px;
         .content-products {
           margin-top: 130px;
           .list-products {
@@ -235,6 +231,7 @@ header{
             .products-row {
               .col-sm-6 {
                 padding-left: 0;
+                padding-right: 0;
                 .product {
                   ul {
                     padding-left: 0;
@@ -244,7 +241,6 @@ header{
                       a {
                         color: $color-li-a;
                         font-size: 17px;
-                        //padding: 5px 7px;
                         text-decoration: underline;
                         &:hover {
                           background: $color-li-a;
@@ -291,8 +287,6 @@ header{
                     height: 47px;
                     line-height: 47px;
                     margin-bottom: 16px;
-                    //text-align: center;
-                    //width: 70px;
                     img{
                       vertical-align: middle;
                     }
@@ -300,6 +294,30 @@ header{
                 }
               }
             }
+          }
+        }
+      }
+      .col-md-5{
+        background: #E6F1F3;
+        box-shadow: 0 -10px 38px rgba(14,14,14,0.3);
+        margin-left: 12px;
+        padding-left: 0;
+        padding-right: 0;
+        width: 368px;
+        .sidebar {
+          .content-sidebar {
+            padding: 32px 14px 47px 15px;
+            h3 {
+              font-size: 17px;
+              font-weight: bold;
+              padding-bottom: 18px;
+            }
+            p{
+              font-size: 15px;
+            }
+          }
+          .img-sidebar{
+            height: 100%;
           }
         }
       }
